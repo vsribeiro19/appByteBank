@@ -1,0 +1,16 @@
+﻿using byteBank;
+using byteBank.Titular;
+Console.WriteLine("Seja bem-vindo ao ByteBank");
+//ContaCorrente pessoa1 = new ContaCorrente(235,"14071-x");
+//Cliente cliente = new Cliente();
+//pessoa1.Saldo = 150;
+//pessoa1.titular = cliente;
+////Console.WriteLine(pessoa1.Saldo);
+//pessoa1.titular.nome = "Victor Ribeiro";
+//Console.WriteLine(pessoa1.NumeroAgencia);
+//Console.WriteLine(pessoa1.Conta);
+//Console.WriteLine(pessoa1.titular.nome);
+ContaCorrente pessoa2 = new ContaCorrente(076, "11549-x");
+ContaCorrente pessoa3 = new ContaCorrente(1300, "455101-e");
+ContaCorrente pessoa4 = new ContaCorrente(1300, "335111-f");
+Console.WriteLine(ContaCorrente.totalContasCriadas);
